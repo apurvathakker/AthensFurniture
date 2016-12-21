@@ -1,0 +1,52 @@
+.nop-jcarousel .carousel-title {
+	background: #eee  url('images/rtl-bullet.png') left center no-repeat;
+}
+.nop-jcarousel .carousel-title span {
+	padding-left: 100px;
+	padding-right: 0;
+}
+.jCarouselMainWrapper .slick-prev {
+	left: 65px;
+	right: auto;
+    background-image: url('images/next-horizontal.png');
+}
+.jCarouselMainWrapper .slick-next {
+	left: 33px;
+	right: auto;
+    background-image: url('images/prev-horizontal.png');
+}
+.nop-jcarousel .slick-dots .slick-active button,
+.nop-jcarousel .slick-dots li button:hover {
+	background-position: 0 -22px !important;
+}
+@media all and (min-width: 980px) {
+	.side-2 .nop-jcarousel .carousel-title {
+		padding: 10px 10px 10px 15px;
+	}
+	.side-2 .jCarouselMainWrapper .slick-prev {
+		left: 58px;
+		right: auto;
+	}
+	.side-2 .jCarouselMainWrapper .slick-next {
+		left: 28px;
+		right: auto;
+	}
+}
+@media all and (max-width: 980px) and (min-width: 769px) {
+	.nop-jcarousel .carousel-title span {
+		padding-left: 120px;
+		padding-right: 0;
+	}
+}
+@media all and (max-width: 768px) and (min-width: 481px) {
+	.nop-jcarousel .carousel-title span {
+		padding-left: 120px;
+		padding-right: 0;
+	}
+}
+@media all and (max-width: 480px) {
+	.nop-jcarousel .carousel-title span {
+		padding-left: 10px;
+		padding-right: 0;
+	}
+}
